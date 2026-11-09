@@ -51,6 +51,13 @@ gapwise has one function for each step of dealing with this.
 Install the package from GitHub:
 
 ``` r
+# install.packages("pak")
+pak::pak("Jimmuji/gapwise")
+```
+
+If you prefer the remotes package, this does the same thing:
+
+``` r
 # install.packages("remotes")
 remotes::install_github("Jimmuji/gapwise")
 ```
