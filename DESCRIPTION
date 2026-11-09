@@ -1,0 +1,24 @@
+Package: gapwise
+Title: Find and Handle Gaps in Repeated Measures Data
+Version: 0.1.0
+Authors@R: 
+    person("Jim", "Wang", email = "maojia.wang@mail.utoronto.ca", role = c("aut", "cre"))
+Description: Tools for data in which the same units (patients, hospitals,
+    countries) are measured at several time points. The functions report
+    whether every unit has a row at every time point, add the rows that are
+    absent, summarise missing values and attrition over time, and create
+    lagged variables that are matched on the value of the time variable
+    rather than on row position, so that a gap in the data cannot shift the
+    lag onto the wrong time point.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 4.1)
+Imports: 
+    ggplot2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+Config/roxygen2/version: 8.1.1
